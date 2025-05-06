@@ -2,7 +2,9 @@
   "license": "ISC",
   "scripts": {
     "lint:fix": "prettier */*.js \"*/**/*{.js,.ts}\" -w",
-    "lint": "prettier */*.js \"*/**/*{.js,.ts}\" --check"
+    "lint": "prettier */*.js \"*/**/*{.js,.ts}\" --check",
+    "deploy:local": "anchor deploy --provider.cluster l",
+    "deploy:devnet": "anchor deploy --provider.cluster devnet --verifiable && anchor idl init --provider.cluster devnet -f target/idl/solana_vesting_program.json B6Ten95rDWqw8MMJy6hy2GHxiQrzjKAYBtFzFkCfuwVu"
   },
   "dependencies": {
     "@coral-xyz/anchor": "^0.31.1",

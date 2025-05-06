@@ -22,15 +22,15 @@ If you discover a security issue, please send an encrypted report to:
 
 3. Prepare your report in a text file (e.g. `report.txt`).
 
-4. Encrypt the report for `dev@lumeryn.com`:
+4. Encrypt the report for `dev\_\_AT\_\_lumeryn.com`:
 
    ```bash
-   gpg --encrypt --recipient "dev@lumeryn.com" --armor report.txt
+   gpg --encrypt --recipient "dev\_\_AT\_\_lumeryn.com" --armor report.txt
    ```
 
    This produces `report.txt.asc`.
 
-5. Email the encrypted file (`report.txt.asc`) to **dev@lumeryn.com**.
+5. Email the encrypted file (`report.txt.asc`) to **dev\_\_AT\_\_lumeryn.com**.
 
 ## What to Include
 
@@ -45,4 +45,4 @@ We aim to acknowledge receipt within 3 business days and will keep you updated o
 
 ## Acknowledgements
 
-We appreciate responsible disclosure and will credit you in our project’s security acknowledgements unless you request anonymity.
+We appreciate responsible disclosure and will credit you in our project's security acknowledgements unless you request anonymity.

@@ -21,9 +21,10 @@ declare_id!("B6Ten95rDWqw8MMJy6hy2GHxiQrzjKAYBtFzFkCfuwVu");
 security_txt! {
     name: "Lumeryn Vesting Program" ,
     project_url:  "https://github.com/Lumeryn/solana-vesting-program",
-    policy:  "https://github.com/Lumeryn/solana-vesting-program/scurity.md",
+    policy:  "https://raw.githubusercontent.com/Lumeryn/solana-vesting-program/refs/heads/main/security.md",
     contacts:  "mailto:dev@lumeryn.com",
     preferred_languages: "en",
+    encryption: "https://raw.githubusercontent.com/Lumeryn/solana-vesting-program/refs/heads/main/key.pgp",
     source_code: "https://github.com/Lumeryn/solana-vesting-program"
 }
 

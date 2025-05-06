@@ -15,5 +15,6 @@ url = "https://api.apr.dev"
 cluster = "localnet"
 wallet = "~/.config/solana/id.json"
 
+
 [scripts]
 test = "npm exec jest -- --preset ts-jest tests/*"

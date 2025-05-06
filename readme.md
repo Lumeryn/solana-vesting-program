@@ -11,6 +11,16 @@ A complete on‐chain token vesting solution built with [Anchor](Anchor.toml), i
 - Rust unit tests in
   [`programs/solana-vesting-program/src/utils.rs`](programs/solana-vesting-program/src/utils.rs)
 
+## Program Address
+
+The program is deployed on the Solana devnet at:
+
+```
+B6Ten95rDWqw8MMJy6hy2GHxiQrzjKAYBtFzFkCfuwVu
+```
+
+We will update this documentation with the mainnet address once we deploy there.
+
 ## Prerequisites
 
 - Rust & Anchor CLI (see `anchor_version` in [Anchor.toml](Anchor.toml))
