@@ -1,0 +1,19 @@
+[toolchain]
+anchor_version = "0.31.1"
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+solana_vesting_program = "B6Ten95rDWqw8MMJy6hy2GHxiQrzjKAYBtFzFkCfuwVu"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "npm exec jest -- --preset ts-jest tests/*"

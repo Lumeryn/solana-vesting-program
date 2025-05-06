@@ -1,0 +1,12 @@
+
+Wrote new keypair to test3.json
+==============================================================================
+pubkey: C7hYg7YbecKradBiZoCnp4uiMtBVVQu9nJg3y6JwGEWP
+
+Wrote new keypair to test2.json
+============================================================================
+pubkey: DmXxc4dhHFzDKGqY41HfC8D5o17tnBEF2gg8HHWXHM7E
+
+Wrote new keypair to test1.json
+===============================================================================
+pubkey: DfaNQePQhccMzo18QEjDLAZbwUGtuyqDJN7TBBKVuFSH

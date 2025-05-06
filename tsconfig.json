@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "types": ["jest", "node"],
+    "typeRoots": ["./node_modules/@types", "./node_modules"],
+    "lib": ["es2015"],
+    "module": "commonjs",
+    "target": "es6",
+    "baseUrl": ".",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "@solana/spl-token": ["node_modules/@solana/spl-token/lib/index.d.ts"]
+    },
+
+    "esModuleInterop": true
+  }
+}
