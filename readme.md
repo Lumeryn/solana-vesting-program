@@ -15,9 +15,7 @@ A complete on‐chain token vesting solution built with [Anchor](Anchor.toml), i
 
 The program is deployed on the Solana devnet at:
 
-```
-B6Ten95rDWqw8MMJy6hy2GHxiQrzjKAYBtFzFkCfuwVu
-```
+[B6Ten95rDWqw8MMJy6hy2GHxiQrzjKAYBtFzFkCfuwVu](https://explorer.solana.com/address/B6Ten95rDWqw8MMJy6hy2GHxiQrzjKAYBtFzFkCfuwVu?cluster=devnet)
 
 We will update this documentation with the mainnet address once we deploy there.
 
